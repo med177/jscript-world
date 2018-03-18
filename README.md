@@ -71,7 +71,36 @@ Java Script Dünyası'na Girişte Öğrenilmesi Gerekenler (Ben zorluk çektim s
 
 * Travis'e GitHub hesabıyla üyelik
 * .travis.yml dosyası ve temel konfigürasyon
+
+```yml
+language: node_js
+node_js:
+  - "8"
+  - "9"
+before_install:
+  # yüklemeden önce şimdilik işlem yok
+install:
+  - npm install
+  - npm install -g codecov
+services:
+  - mongodb
+env:
+  # dışarıdan verilen parametreler
+  - DEGISKEN="123456"
+script:
+  - istanbul cover ./node_modules/mocha/bin/_mocha --reporter lcovonly -- -R spec
+  - codecov
+  - npm start
+os: linux
+group: stable
+dist: trusty
+```
+
 * Readme.md dosyasına resimli belirteç koyma
+
+```markdown
+[![Build Status](https://travis-ci.org/USER_NAME/REPO.svg?branch=master)](https://travis-ci.org/USER_NAME/REPO)
+```
 
 ### Visual studio Code (VSCode)
 
