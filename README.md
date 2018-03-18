@@ -35,7 +35,10 @@ Java Script Dünyası'na Girişte Öğrenilmesi Gerekenler (Ben zorluk çektim s
   * body-parser paketi npm install body-parser -g
   * multer paketi npm install multer -g
   * nodemon paketi
-  
+  * json-web-token JWT
+* Restfull API
+* MEAN Stack (Mongo, Express, Angular, Node) - MEVN Stack (Mongo, Express, Vue, Node)
+
 ### Ecma Script 2015 - ES6
 
 * Temel Java Script ile Farklar
@@ -86,7 +89,23 @@ Java Script Dünyası'na Girişte Öğrenilmesi Gerekenler (Ben zorluk çektim s
 * ctrl-shift-p içinden komutlar, Command Panel
 * Git,Visual Studio Team Servise gibi ortak çalışma alanları, Source Control commit, pull, push, scync, stage
 
+### Vue.js
 
+* Nedir, Nasıl Kullanılır Tercih Sebepleri
+* SSR Server Side Rendering
+
+### Electron.js
+
+* Masaüstü Platform bağımsız uygulama geliştrime
+* Electron ile yapılan Popüler Uygulamalar VSCode, Npm Desktop, Github desktop, MongoDB Compass, Postman
+* Örnek Uygulama Şablonu
+
+### Mongo DB
+
+* MongoDB kurulumu
+* Mongo DB Atlas Servisi
+* MongoDB Compass Uygulaması
+* Mongo Stitch nedir Firebase benzerliği
 
 
 
