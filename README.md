@@ -92,7 +92,10 @@ Java Script Dünyası'na Girişte Öğrenilmesi Gerekenler (Ben zorluk çektim s
 ### Vue.js
 
 * Nedir, Nasıl Kullanılır Tercih Sebepleri
-* SSR Server Side Rendering
+* <template> tagı kullanımı ve tek sayfada js,css,html - pwa
+* Vuex, vue-router, vue-cli, vue-loader, Vue DevTool
+* Sunucu tabanlı vue çalıştırma, SSR Server Side Rendering
+* Örnek uygulama Şablonu
 
 ### Electron.js
 
@@ -103,9 +106,10 @@ Java Script Dünyası'na Girişte Öğrenilmesi Gerekenler (Ben zorluk çektim s
 ### Mongo DB
 
 * MongoDB kurulumu
-* Mongo DB Atlas Servisi
+* MongoDB Atlas Servisi
 * MongoDB Compass Uygulaması
-* Mongo Stitch nedir Firebase benzerliği
+* MongoDB Document Base Veri tabanı mantığı BSON
+* MongoDB Stitch nedir Firebase benzerliği Three way Binding
 
 
 
