@@ -1,4 +1,5 @@
-# jscript-world
+# JavaScript Dünyası (@jscript-world)
+
 Java Script Dünyası'na Girişte Öğrenilmesi Gerekenler (Ben zorluk çektim siz çekmeyin)
 
 ## Temel Olarak Bilinmesi Gerekenler
@@ -20,22 +21,22 @@ Java Script Dünyası'na Girişte Öğrenilmesi Gerekenler (Ben zorluk çektim s
 * Yöetici olarak kullanma
 
 ### NPM
-  
+
 * NPM Paket Yöneticisi
 * npm install, uninstall, -g, --save, -dev vb... nedir
 * package.json dosyası ve dependencies, devDependencies, script, gibi alanlar
 * proje içindeki node_modules klasörü ve genel paket klasörü
-  
+
 ### Node.js
 
 * Node.js kurulumu
 * Çok kullanılan Paketler hakkında temel bilgi
-  * Express paketi npm install express -g
-  * mongoose paketi npm install mongoose -g
-  * body-parser paketi npm install body-parser -g
-  * multer paketi npm install multer -g
-  * nodemon paketi
-  * json-web-token JWT
+	* Express paketi npm install express -g
+	* mongoose paketi npm install mongoose -g
+	* body-parser paketi npm install body-parser -g
+	* multer paketi npm install multer -g
+	* nodemon paketi
+	* json-web-token JWT
 * Restfull API
 * MEAN Stack (Mongo, Express, Angular, Node) - MEVN Stack (Mongo, Express, Vue, Node)
 
@@ -56,8 +57,8 @@ Java Script Dünyası'na Girişte Öğrenilmesi Gerekenler (Ben zorluk çektim s
 
 ```json
 "script":{
-  "build":"webpack --mode development --entry ./src/app.js --output dist/bundle.js",
-  "build:prod":"webpack -p"
+	"build":"webpack --mode development --entry ./src/app.js --output dist/bundle.js",
+	"build:prod":"webpack -p"
 }
 ```
 
@@ -75,22 +76,22 @@ Java Script Dünyası'na Girişte Öğrenilmesi Gerekenler (Ben zorluk çektim s
 ```yml
 language: node_js
 node_js:
-  - "8"
-  - "9"
+	- "8"
+	- "9"
 before_install:
-  # yüklemeden önce şimdilik işlem yok
+	# yüklemeden önce şimdilik işlem yok
 install:
-  - npm install
-  - npm install -g codecov
+	- npm install
+	- npm install -g codecov
 services:
-  - mongodb
+	- mongodb
 env:
-  # dışarıdan verilen parametreler
-  - DEGISKEN="123456"
+	# dışarıdan verilen parametreler
+	- DEGISKEN="123456"
 script:
-  - istanbul cover ./node_modules/mocha/bin/_mocha --reporter lcovonly -- -R spec
-  - codecov
-  - npm start
+	- istanbul cover ./node_modules/mocha/bin/_mocha --reporter lcovonly -- -R spec
+	- codecov
+	- npm start
 os: linux
 group: stable
 dist: trusty
@@ -108,10 +109,10 @@ dist: trusty
 * Built-in eklentileri
 * Gömülü Terminal kullanımı ve komutlar
 * ESLint nedir ne işe yarar 'Debugging'
-  * ESlint temel ayarları config.json dosyası
-  * console.log() neden hatalı görünür
-  * eklentiler
-  * Kodlama standartları Google, Airbnb vb...
+	* ESlint temel ayarları config.json dosyası
+	* console.log() neden hatalı görünür
+	* eklentiler
+	* Kodlama standartları Google, Airbnb vb...
 * Chrome DevTools
 * Dosya ve Klasörler için icon paketleri, File Icon Theme
 * Text Editor için temalar, Color Theme
@@ -121,7 +122,7 @@ dist: trusty
 ### Vue.js
 
 * Nedir, Nasıl Kullanılır Tercih Sebepleri
-* <template> tagı kullanımı ve tek sayfada js,css,html - pwa
+* `<template>` tagı kullanımı ve tek sayfada js,css,html - pwa
 * Vuex, vue-router, vue-cli, vue-loader, Vue DevTool
 * Sunucu tabanlı vue çalıştırma, SSR Server Side Rendering
 * Örnek uygulama Şablonu
@@ -139,18 +140,3 @@ dist: trusty
 * MongoDB Compass Uygulaması
 * MongoDB Document Base Veri tabanı mantığı BSON
 * MongoDB Stitch nedir Firebase benzerliği Three way Binding
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

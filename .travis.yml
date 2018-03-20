@@ -1,0 +1,21 @@
+language: node_js
+node_js:
+  - "8"
+  - "9"
+before_install:
+  # yüklemedn önce şimdilik işlem yok
+install:
+  - npm install
+  - npm install -g codecov
+services:
+  - mongodb
+env:
+  # mongo db şifreleri
+  - MONGO_ATLAS_PWD="med177"
+script:
+  - istanbul cover ./node_modules/mocha/bin/_mocha --reporter lcovonly -- -R spec
+  - codecov
+  - npm start
+os: linux
+group: stable
+dist: trusty
