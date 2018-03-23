@@ -68,7 +68,7 @@ Java Script Dünyası'na Girişte Öğrenilmesi Gerekenler (Ben zorluk çektim s
 * EcmaScript'den dönüşüm
 * TypeScript'den dönüşüm
 
-### Travis CI (Continues Integration)
+### Travis CI (Continuous Integration)
 
 * Travis'e GitHub hesabıyla üyelik
 * .travis.yml dosyası ve temel konfigürasyon
