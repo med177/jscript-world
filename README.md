@@ -1,4 +1,4 @@
-# JavaScript Dünyası (@jscript-world)
+# JavaScript Dünyası (@ jscript-world)
 
 Java Script Dünyası'na Girişte Öğrenilmesi Gerekenler (Ben zorluk çektim siz çekmeyin)
 
@@ -76,22 +76,22 @@ Java Script Dünyası'na Girişte Öğrenilmesi Gerekenler (Ben zorluk çektim s
 ```yml
 language: node_js
 node_js:
-	- "8"
-	- "9"
+- "8"
+- "9"
 before_install:
-	# yüklemeden önce şimdilik işlem yok
+# yüklemeden önce şimdilik işlem yok
 install:
-	- npm install
-	- npm install -g codecov
+- npm install
+- npm install -g codecov
 services:
-	- mongodb
+- mongodb
 env:
-	# dışarıdan verilen parametreler
-	- DEGISKEN="123456"
+# dışarıdan verilen parametreler
+- DEGISKEN="123456"
 script:
-	- istanbul cover ./node_modules/mocha/bin/_mocha --reporter lcovonly -- -R spec
-	- codecov
-	- npm start
+- istanbul cover ./node_modules/mocha/bin/_mocha --reporter lcovonly -- -R spec
+- codecov
+- npm start
 os: linux
 group: stable
 dist: trusty
