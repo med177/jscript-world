@@ -124,7 +124,7 @@ dist: trusty
 * Nedir, Nasıl Kullanılır Tercih Sebepleri
 * `<template>` tagı kullanımı ve tek sayfada js,css,html - pwa
 * Vuex, vue-router, vue-cli, vue-loader, Vue DevTool
-* Sunucu tabanlı vue çalıştırma, SSR Server Side Rendering
+* Sunucu tabanlı vue çalıştırma Nuxt, SSR Server Side Rendering
 * Örnek uygulama Şablonu
 
 ### Electron.js
@@ -140,3 +140,8 @@ dist: trusty
 * MongoDB Compass Uygulaması
 * MongoDB Document Base Veri tabanı mantığı BSON
 * MongoDB Stitch nedir Firebase benzerliği Three way Binding
+
+
+### İşleri Kolaylaştıran Bazı Kütüphaneler
+
+* Axios (Promise tabanlı HTTP istemcisi tarayıcı ve node.js için)
