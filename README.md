@@ -149,4 +149,5 @@ dist: trusty
 
 ### Bilinmesi gereken bazı Jscript kullanımları
 
+* Promise kullanım amacı çalışma prensibi
 * async, await; kullanımı ve mantığı
