@@ -145,3 +145,8 @@ dist: trusty
 ### İşleri Kolaylaştıran Bazı Kütüphaneler
 
 * Axios (Promise tabanlı HTTP istemcisi tarayıcı ve node.js için)
+* Lodash veya Underscore (Modüler yapılar, Veri işleme '.NET Linq' benzeri için Araç kütüphaneleri)
+
+### Bilinmesi gereken bazı Jscript kullanımları
+
+* async, await; kullanımı ve mantığı
