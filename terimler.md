@@ -5,7 +5,7 @@ Yazılım Geliştirmede Kullanılan İngilizce Terimler
 
 ## Çok Kullanılan
 
-| Syntax | Description |
+| Terim | Karşılığı |
 | ----------- | ----------- |
 | Header | Title |
 | Paragraph | Text |
