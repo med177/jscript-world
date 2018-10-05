@@ -7,11 +7,9 @@ Yazılım Geliştirmede Kullanılan İngilizce Terimler
 
 | Terim | Karşılığı |
 | ----------- | ----------- |
-| Header | Title |
-| Paragraph | Text |
+| **abstract** | soyut |
+| **concrete** | somut |
 
-**abstract** : soyut
-**concrete** : somut
 **struct** : yapı
 **polymorphism** : çok biçimlilik
 **inheritance** : kalıtım
