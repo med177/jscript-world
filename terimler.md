@@ -5,6 +5,11 @@ Yazılım Geliştirmede Kullanılan İngilizce Terimler
 
 ## Çok Kullanılan
 
+| Syntax | Description |
+| ----------- | ----------- |
+| Header | Title |
+| Paragraph | Text |
+
 **abstract** : soyut
 **concrete** : somut
 **struct** : yapı
