@@ -1,3 +1,4 @@
+
 # Yazılım Terimleri
 
 Yazılım Geliştirmede Kullanılan İngilizce Terimler
