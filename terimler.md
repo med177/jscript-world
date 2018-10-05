@@ -6,8 +6,11 @@ Yazılım Geliştirmede Kullanılan İngilizce Terimler
 ## Çok Kullanılan
 
 **abstract** : soyut
+
 **concrete** : 
+
 **polymorphism** : 
+
 **inheritance** : 
 **encapsulation** : 
 **override** : 
