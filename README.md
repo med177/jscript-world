@@ -152,7 +152,7 @@ dist: trusty
 * Axios (Promise tabanlı HTTP istemcisi tarayıcı ve node.js için)
 * Lodash veya Underscore (Modüler yapılar, Veri işleme '.NET Linq' benzeri için Araç kütüphaneleri)
 * ReactiveX RxJS (Sadece jscript değil diğer dillerdede kullanılabilen Senkron ve Asenkron veri akışlarını sağlayan kontrol eden bir API)
-* Moment.js tarihlerle alakalı herşeyi yapabileceğinizi genel bir kütüphane pek çok büyük kütüphanenin içinde yeralıyor.
+* Moment.js tarihlerle alakalı herşeyi yapabileceğiniz genel bir kütüphane pek çok büyük kütüphanenin içinde de yeralıyor, örneğin adonisjs de var.
 
 ### Bilinmesi gereken bazı Jscript kullanımları
 
